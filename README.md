@@ -1,5 +1,5 @@
 # LaTeX Changes Tracker
-This is a small LaTeX snippet for keeping track of changes in a manuscript. This was made as aa simple replacement of the "changes" package as it does not support the \cite command.
+This is a small LaTeX snippet for keeping track of changes in a manuscript. This was made as a simple replacement of the "changes" package as it does not support the \cite command.
 
 # How to use
 Copy the following snippet in the preamble of your LaTeX document.
