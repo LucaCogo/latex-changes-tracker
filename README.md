@@ -5,10 +5,10 @@ This is a small LaTeX snippet for keeping track of changes in a manuscript. This
 Copy the following snippet in the preamble of your LaTeX document.
 
 ```latex
+% LaTeX Changes Tracker
+\usepackage{color}
 \usepackage[normalem]{ulem} % For strikeout text
-
 \def\changes{1} % Set to 1 for tracking changes, set to 0 for final version
-
 \newcommand{\deleted}[1]{\if\changes0\else\color{red}{\sout{#1}}\color{black}\fi}
 \newcommand{\added}[1]{\if\changes0{#1}\else\textcolor{blue}{#1}\fi}
 ```
